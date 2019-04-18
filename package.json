@@ -1,8 +1,9 @@
 {
-    "name": "gulishi",
-    "displayName": "gulishi",
+    "name": "tangwei",
+    "displayName": "汤唯鼓励师",
     "description": "tangwei",
     "version": "0.0.1",
+    "publisher": "liruifengv",
     "icon": "logo.png",
     "engines": {
         "vscode": "^1.33.0"
@@ -10,6 +11,20 @@
     "categories": [
         "Other"
     ],
+    "keywords": [
+        "汤唯",
+        "提醒",
+        "鼓励"
+    ],
+    "bugs": {
+        "url": "https://github.com/liruifengv/vscode-tangwei/issues",
+        "email": "ruifengli@joyogame.com"
+    },
+    "homepage": "https://github.com/liruifengv/vscode-tangwei/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liruifengv/vscode-tangwei"
+    },
     "activationEvents": [
         "onCommand:extension.tangwei"
     ],
