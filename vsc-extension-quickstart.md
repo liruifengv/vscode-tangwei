@@ -1,40 +1,14 @@
-# Welcome to your VS Code Extension
+# 汤唯鼓励师
 
-## What's in the folder
+在 VS Code 中连续写代码一小时（时间可配置），会有汤唯女神提醒你该休息啦~
 
-* This folder contains all of the files necessary for your extension.
-* `package.json` - this is the manifest file in which you declare your extension and command.
-  * The sample plugin registers a command and defines its title and command name. With this information VS Code can show the command in the command palette. It doesn’t yet need to load the plugin.
-* `extension.js` - this is the main file where you will provide the implementation of your command.
-  * The file exports one function, `activate`, which is called the very first time your extension is activated (in this case by executing the command). Inside the `activate` function we call `registerCommand`.
-  * We pass the function containing the implementation of the command as the second parameter to `registerCommand`.
 
-## Get up and running straight away
+## 使用
 
-* Press `F5` to open a new window with your extension loaded.
-* Run your command from the command palette by pressing (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) and typing `Hello World`.
-* Set breakpoints in your code inside `extension.js` to debug your extension.
-* Find output from your extension in the debug console.
+除了每过一小时会自动弹出提醒页面，也可以按 `F1`, 然后输入 `tangwei`来打开提醒页面
 
-## Make changes
+![usage](images/readme.png)
 
-* You can relaunch the extension from the debug toolbar after changing code in `extension.js`.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
+## 配置
 
-## Explore the API
-
-* You can open the full set of our API when you open the file `node_modules/vscode/vscode.d.ts`.
-
-## Run tests
-
-* Open the debug viewlet (`Ctrl+Shift+D` or `Cmd+Shift+D` on Mac) and from the launch configuration dropdown pick `Extension Tests`.
-* Press `F5` to run the tests in a new window with your extension loaded.
-* See the output of the test result in the debug console.
-* Make changes to `test/extension.test.js` or create new test files inside the `test` folder.
-  * By convention, the test runner will only consider files matching the name pattern `**.test.js`.
-  * You can create folders inside the `test` folder to structure your tests any way you want.
-
-## Go further
-
- * [Publish your extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) on the VSCode extension marketplace.
- * Automate builds by setting up [Continuous Integration](https://code.visualstudio.com/api/working-with-extensions/continuous-integration).
+* `tangwei.renderViewIntervalInMinutes`: 展示提醒页面的时间间隔（分钟）。 (默认值为**60**)
